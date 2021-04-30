@@ -6,10 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xavi78/futursMicroservice.git
+          #uri: https://github.com/xavi78/futursMicroservice.git
+          uri: https://github.com/albertogc420/microservices2.git
           search-paths:
             - "configuration_server_repository/{application}/{profile}"
-          default-label: main
+          #default-label: main
+          default-label: master
         # username:
        # password:
 

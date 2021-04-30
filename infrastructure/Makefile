@@ -12,3 +12,6 @@ docker-delete:
 
 api-gateway:
 	mvn spring-boot:run -f ../api_gateway/pom.xml
+
+microservice:
+	mvn spring-boot:run -f ../microservice/pom.xml
