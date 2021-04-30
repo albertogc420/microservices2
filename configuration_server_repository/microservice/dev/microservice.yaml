@@ -14,7 +14,8 @@ spring:
         descriptor:
           sql:
             BasicBinder: TRACE
-  h2:
+        naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     console:
       enabled: true
       path: /h2-console

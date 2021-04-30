@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.UUID;
 
 @Entity
-@Table(name="Patients")
+@Table(name="PATIENTS")
 public class Patient implements Serializable {
 
     private static final Long serialVersionUUid=1L;
@@ -31,9 +31,5 @@ public class Patient implements Serializable {
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dateCreated;
-
-
-
-
 
 }
